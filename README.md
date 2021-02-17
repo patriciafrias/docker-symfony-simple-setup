@@ -4,8 +4,9 @@
 cp docker-compose.override.yml.dist docker-compose.override.yml
 // Start the containers:  docker-compose up
 // Install dependencies:  docker-compose exec php-fpm composer install
-// Test MySQL server connection:  
-```docker-compose exec mysql mysql -uroot -ppfm
 
-// Test the web server:
+#### Test MySQL server connection:  
+```docker-compose exec mysql mysql -uroot -ppfm```
+
+#### Test the web server:
 http://localhost/
