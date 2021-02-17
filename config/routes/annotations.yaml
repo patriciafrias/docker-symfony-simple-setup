@@ -1,5 +1,8 @@
 controllers:
-    resource: ../../src/Pfm/Infrastructure/Controller/
+# Default Symfony default controllers dir
+    resource: ../../src/Controller/
+# Custome default controllers dir
+    # resource: ../../src/Pfm/Infrastructure/Controller/
     type: annotation
 
 kernel:
