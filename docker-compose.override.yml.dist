@@ -1,0 +1,17 @@
+version: '3'
+
+# Copy this file to a docker-compose.override.yml to override some settings
+
+services:
+  mysql:
+    environment:
+      MYSQL_ROOT_PASSWORD: pfm
+      MYSQL_DATABASE: pfm
+      MYSQL_USER: pfm
+      MYSQL_PASSWORD: pfm
+  apache:
+    environment:
+      APP_DOMAIN: pfm-app
+      APP_DOC_ROOT: /var/www/public
+      APACHE_SERVERNAME: pfm-server
+      FPM_ALIAS: fpm
