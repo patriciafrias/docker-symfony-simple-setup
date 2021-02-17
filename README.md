@@ -16,3 +16,5 @@
 
 #### Test the web server:
 http://localhost/
+
+You will see the Symfony start page
